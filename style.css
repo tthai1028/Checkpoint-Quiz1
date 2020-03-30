@@ -1,0 +1,114 @@
+
+
+html,
+body,
+.wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #444;
+}
+
+
+
+body {
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+  color: #999;
+  font-weight: 300;
+  text-align: center;
+  background-color: #f8f6f0;
+}
+
+#submit:hover {
+  background-color: rgb(137, 147, 151);
+}
+
+.choicebtn {
+  padding: 15px;
+}
+
+h1{
+  font-weight: 300;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgb(49, 49, 49);
+}
+
+#clockdiv {
+  
+  padding-top: 9px;
+  padding-left: 80%;
+  color: rgb(26, 25, 25);
+}
+
+.seconds {
+  color: rgb(26, 25, 25);
+}
+
+.wrapper {
+  padding-top: 10px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  color: hsl(206, 17%, 28%);
+}
+
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+#card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  border-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  color: hsl(206, 17%, 28%);
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px 40px;
+  
+}
+
+.hide {
+  display: none;
+}
+
+.card-body {
+  min-height: 100px;
+}
+
+
+/* Media queries for device screen sizes */
+@media (max-width: 690px) {
+  .btn {
+    font-size: 1rem;
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
+  }
+
+  #password {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn {
+    font-size: 0.8rem;
+  }
+}
